@@ -1,0 +1,52 @@
+Haskell has numerous built-in functions that provide powerful tools for functional programming. Here's a list of some useful built-in functions in Haskell:
+
+Basic Functions:
+
+id: The identity function that returns its argument unchanged.
+const: Takes two arguments and returns the first one, ignoring the second.
+(.): Function composition operator, allows chaining functions together.
+List Functions:
+
+head: Returns the first element of a list.
+tail: Returns all but the first element of a list.
+init: Returns all but the last element of a list.
+last: Returns the last element of a list.
+length: Returns the length of a list.
+null: Checks if a list is empty.
+take: Takes a specified number of elements from the beginning of a list.
+drop: Drops a specified number of elements from the beginning of a list.
+elem: Checks if an element is present in a list.
+filter: Filters elements in a list based on a predicate.
+map: Applies a function to each element of a list and returns a new list.
+foldl and foldr: Perform left and right folds, respectively, on a list.
+zip: Combines two lists into a list of pairs.
+Tuple Functions:
+
+fst: Extracts the first component of a pair.
+snd: Extracts the second component of a pair.
+zipWith: Applies a function to pairs of elements from two lists.
+Numeric Functions:
+
+abs: Returns the absolute value of a number.
+max and min: Returns the maximum and minimum of two numbers, respectively.
+sum: Returns the sum of elements in a list.
+product: Returns the product of elements in a list.
+Higher-order Functions:
+
+curry: Converts a function taking multiple arguments into a series of functions, each taking one argument.
+uncurry: Converts a curried function back into a function taking multiple arguments.
+flip: Takes a function and returns a new function with the order of its arguments reversed.
+IO Functions:
+
+putStrLn: Outputs a string to the console.
+getLine: Reads a line of input from the console.
+read: Parses a string into a specified type.
+Maybe Functions:
+
+Maybe: A data type representing optional values (Just x or Nothing).
+maybe: Takes a default value and a Maybe value, returns the default if Nothing, otherwise applies a function to the Just value.
+Either Functions:
+
+Either: A data type representing values with two possibilities (Either a b).
+either: Takes two functions and an Either value, applies the appropriate function based on Left or Right value.
+These are just a selection of the many built-in functions in Haskell. Haskell's standard library, along with additional community-contributed packages, provides a rich ecosystem of functions and utilities for various programming tasks.
